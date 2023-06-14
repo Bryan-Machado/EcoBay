@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Karantina&display=swap');
+/*menu inicio*/
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-menu{
+    background-color: #1D4036;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container-menu h1{
+    color: #FFFFFF;
+  }
+
+  .ecobay{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 120px;
+    margin-left: -60px;
+    font-family: 'Karantina';
+    font-size: 180%;
+
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+  }
+
+  .botaousuario button{
+    padding: 10px;
+    background-color: #158464;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .user img{
+    height: 60px;
+  }
+
+.titulo h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-block-end: 50px;
+    font-family:'DM Sans';
+    font-size: 400%;
+    color: #4F2E1A;
+} 
+
+.textoimg{
+    background-color: #60B5B4;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    color: #000000;
+    font-size: 60px;
+}
+
+.textoimg p{
+    padding: 23px;
+    font-family:'DM Sans';
+    font-size: 65%;
+}
+
+body{
+    background-color:#C7FFF5;
+}
+
+.container{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.textoimg img{
+    right: 0px;
+    height: 100%;
+    max-width: 60%;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.detalhescurso{
+
+    height: 55%;
+    background-color: #60B5B4;
+    width: 40%;
+    text-align: center;
+    border-radius: 12%;
+    font-size: 2vh;
+    font-family:'DM Sans';
+}
+
+.detalhescurso h2{
+    margin-top: 12%;
+    font-size: 4vh;
+}
+
+.detalhescurso-linha1{
+    display: flex;
+    margin-left: 7%;
+    padding-top: 5%;
+}
+
+.detalhescurso-linha1 p{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 130%;
+}
+
+.detalhescurso-botao{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalhescurso-botao button{
+    background-color: #31FFCE;
+    width: 70%;
+    height: 50%;
+    border-radius: 40px;
+    font-size: 140%;
+    border: none;
+    box-shadow: #222222  0 2.5px 2px 0.6px;
+}
+
+
+
+.rodape{
+  width: 100%;
+  height: 400px;
+  background-color: #16392A;
+  color: #FFFFFF;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+
+.red-sociais{
+  margin-left: 30px;
+  width: 30%;
+  /* background-color: yellow; */
+  font-size: x-large;
+}
+
+
+.contato-empresa{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  font-size: x-large;
+  margin-right: 30px;
+}
+
+
+.contatos{
+  margin-left: 10px;
+}
+
+
+.empresas{
+  margin-left: 10px;
+}
